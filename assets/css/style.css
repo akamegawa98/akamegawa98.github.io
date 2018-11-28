@@ -1,7 +1,7 @@
 body, html {
 	height: 100%;
 	font-family: 'Quicksand', sans-serif;
-	background: linear-gradient(#e66465, #9198e5);
+	background: linear-gradient(#aa4b6b, #3b8d99;
 	overflow-y: hidden;
 
 }
@@ -58,6 +58,6 @@ body, html {
 	height: 800px;
 	border-radius: 50%;
 	z-index: 1;
-	background: linear-gradient(#9198e5, #e66465);
+	background: linear-gradient(#3b8d99, #aa4b6b);
 }
 
