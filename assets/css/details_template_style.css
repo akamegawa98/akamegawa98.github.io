@@ -1,0 +1,101 @@
+body {
+	background: #242424;
+	color: #fff;
+}
+
+/* NAVIGATION BAR STYLING*/
+#nav-bar {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin-left: 60px;
+  margin-top: 40px;
+  padding: 0px;
+  font-family: 'Abril Fatface', cursive;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-decoration: none;
+  font-size: 24px: 
+  line-height: 40px;
+  color: #fff;
+}
+
+#logo {
+	margin: 10px 00px 20px 0px;
+}
+
+#work-break {
+	margin-bottom: 24px;
+}
+
+/*CONTENT STYLINGS*/
+.page-container{
+    display: grid;
+    grid-template-columns: 30% 60%;
+}
+
+#section-header {
+	font-family: 'Abril Fatface', cursive;
+}
+
+p {
+	font-family: 'PT Sans', sans-serif;
+}
+
+.content-container {
+	margin-top: 20px;
+	padding: 0px 60px 0px 20px;
+}
+
+#section-header{
+	font-size: 96px;
+	margin:0;
+}
+
+/*CHANGE EVERYTHING BELOW THIS FROM PAGE TO PAGE*/
+#title-img{
+  width: 800px;
+  height: 100%;
+  margin-top: 10px;
+}
+
+#title-text{
+  font-size: 30px;
+  font-family: 'PT Sans', sans-serif;
+  margin-bottom: 80px;
+ 
+}
+
+#project-point-left{
+  display: flex;
+  flex-direction:row;
+  margin-bottom: 40px;
+  align-items: center;
+}
+
+#project-point-left p {
+ margin-left: 20px;
+ margin-bottom: 0px;
+}
+
+#project-point-right p {
+ margin-right: 20px;
+ margin-bottom: 0px;
+}
+
+#project-point-right{
+  display: flex;
+  flex-direction:row;
+  margin-bottom: 40px;
+  align-items: center;
+}
+
+#link{
+  color: white;
+}

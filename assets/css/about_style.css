@@ -1,0 +1,92 @@
+body {
+	background: #242424;
+	color: #fff;
+}
+
+/* NAVIGATION BAR STYLING*/
+#nav-bar {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin-left: 60px;
+  margin-top: 40px;
+  padding: 0px;
+  font-family: 'Abril Fatface', cursive;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-decoration: none;
+  font-size: 24px: 
+  line-height: 40px;
+  color: #fff;
+}
+
+#logo {
+	margin: 10px 00px 20px 0px;
+}
+
+#work-break {
+	margin-bottom: 24px;
+}
+
+/*CONTENT STYLINGS*/
+.page-container{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+#section-header {
+	font-family: 'Abril Fatface', cursive;
+}
+
+p {
+	font-family: 'PT Sans', sans-serif;
+  padding-left: 40px;
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+
+.content-container {
+	margin-top: 20px;
+	padding: 0px 60px 0px 20px;
+}
+
+#section-header{
+	font-size: 96px;
+	margin:0;
+  padding: 0;
+}
+
+/*CHANGE EVERYTHING BELOW THIS FROM PAGE TO PAGE*/
+.bio-container {
+  display: flex;
+  flex-direction: row;
+}
+
+#download{
+  margin-top: 40px;
+}
+
+#bio{
+  margin-top: 0px;
+}
+
+#credits{
+  font-family: 'PT Sans', sans-serif;
+  color: #000;
+  margin-top: 40px;
+}
+
+#credits:link {
+  color: #000;
+}
+
+
+#credits-a {
+  color: white;
+}
