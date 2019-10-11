@@ -1,52 +1,95 @@
 <!DOCTYPE html>
 <head>
-	<title>DERIVE | Annalise Kamegawa</title>
-		<link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="assets/css/details_template_style.css" />
-		<link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+	<title>DERIVE</title>
+		<link rel="icon" href="assets/img/tab-icon.png">
+		<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding|Poppins:400,700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="assets/css/template_style.css" />
 </head>
 <body>
+	<div id="nav-bar">
+			<div class="logo" >
+				<a href="index.html">
+					<img src="assets/img/logo.png" class="img-bottom" alt="Annalise">
+					<img src="assets/img/logo-one.png" class="img-top" alt="Annalise">
+				</a>
+			</div>
+			<li id="title_text"  id="nav_text" class="push"><a id="nav_text" href="index.html">PORTFOLIO</a></li>
+	  		<li id="title_text"  id="nav_text"><a id="nav_text" href="about.html">ABOUT</a></li>
+
+	  		<li id="title_text"  id="nav_text"><a id="nav_text" href="https://www.linkedin.com/in/annalise-kamegawa-937817137/">in</a></li>
+	  		<div class="insta"><a id="linked-in" href="https://www.instagram.com/annalisejune/">
+				<img src="assets/img/insta-one.png" class="img-bottom" alt="Card Back">
+        		<img src="assets/img/insta-two.png"  class="img-top" alt="Card Front">
+        		</a>
+	  		</div>
+	</div>
 	<div class="page-container">
-		<div id="nav-bar">
-			<li><a href="hello.html"><img id="logo" src="assets/img/logo.png" alt="Annalise" width="262" height="83"></a></li>
-			<li ><a href="projects.html">Projects.</a></li>
-	  		<li id="work-break"><a href="work.html">Work.</a></li>
-	  		<li ><a href="hello.html">Hello.</a></li>
-	  		<li ><a href="blog.html">Blog.</a></li>
+
+		<div class="header-container">
+			<img id="title-img" src="assets/img/derive_title.JPG" alt="derive-sketch">
+			<div id="title_text" class="section-header">DERIVE</div>		
 		</div>
-		<div class="content-container">
-			<p id="section-header">Derive.</p>
-			<img id="title-img" src="assets/img/derive_title.JPG" alt="moon mobile">
-			<div id="title-text"><i>Derive was a project with Nick Doershlag, Janaki Vivrekar, Meena Kaushik, and Tonya Nguyen for <a id="link" href="make.berkeley.edu/">
- Critical Making</a>. We were motivated to create Derive to encourage people to focus less on getting from point A to point B, and more on appreciating the journey between the two. Instead of navigating the user to specific locations or paths, Derive encourages users to explore their surroundings by subtly suggesting users in certain directions that align with their personal preferences.</i></div>
-			<div id="project-point-left">
-				<img id="proj-img" src="assets/img/derive_app.JPG" alt="moon mobile" height="300">
-				<p> Derive is a shoe connected through bluetooth to an app. We decided to use the Android mobile platform to create our mobile app, with the goal of making our technology as accessible as possible. We also designed our system with the intention of making the application open-source, and built it in a way that would support the possibility of creating an accessible API for users to develop and adapt the app for their own use cases.</p>
-			</div>
-			<div id="project-point-right">
-				<p> In order to create the physical shoe model, we initially iterated in paper and cardboard. This allowed us to make quick changes and incorporate different mockup of electronic designs. We learned a large amount of information through this process such as the appropriate placement of electronics to mitigate mechanical damages to the product through everyday use. </p>
-				<img id="proj-img" src="assets/img/derive_sole.JPG" alt="moon mobile" height="300">
-			</div>
-			<div id="project-point-right">
-				<p> Our code to program the Adafruit Feather to control the Neopixels is a modified version of a tutorial from <a id="link" href="https://learn.adafruit.com/ble-feather-lamp"> Adafruit</a> that allows users to use the Bluefruit app to control the color patterns of a neopixel lamp. We programmed our Feather to create four different signals, indicating the following to the user: turn left, turn right, move forward, and you have arrived.</p>
+
+	<div class="content-container">
+			<div id="graph-text">
+				<div id="subhead"><b>Introduction</b></div>
+				<div id="content">Derive was a shoe-based project developed with Nick Doershlag, Janaki Vivrekar, Meena Kaushik, and Tonya Nguyen for Critical Making in March of 2019. We were motivated to create Derive to encourage users to explore their surroundings. Derive was built into a women’s size 6.5 leather slip-on shoe that was originally fabricated by Steve Madden. We built out a cavity in the front of the shoe in which to install a strip of programmable LED lights. The color and direction of these lights were controlled by a mobile app.
+				</div>
 			</div>
 
-			<div id="project-point-left">
-				<img id="proj-img" src="assets/img/derive_lights.JPG" alt="moon mobile" height="300">
-				<p>  We programmed the neopixel strip to accept certain bluetooth packages that signaled for certain light patterns. Because a feather M0 takes 3.3 V and a Neopixel strip takes 5 V, we initially fitted our electronics with a logic level shifter to protect the feather while providing adequate power to the Neopixels.</p>
+			<div id="three-img">
+				<img src="assets/img/people-one.JPG" alt="derive-sketch">
+				<img src="assets/img/people-two.JPG" alt="derive-sketch">
+				<img src="assets/img/people-three.JPG" alt="derive-sketch">
 			</div>
-			<div id="project-point-right">
-				<p> We designed our final electronic suit to fit snugly into the sole of a shoe. While the product could ultimately be fit into a fully custom designed shoe, we decided to use a logoless shoe. </p>
+
+			<div id="graph-text">
+				<div id="subhead"><b>Ideating</b></div>
+				<div id="content">Our goal was to encourage users to explore their surroundings by subtly suggesting them in certain directions without making them privy to their destination. To do this, we designed a shoe that guided users by lighting up portions of an LED strip attached to the front of the shoe. The portion of the shoe that lit up corresponded to the directions that they were supposed to go in. I developed the first round of shoe sketches for our product to help visualize what our final project would look like and how it should function. </div>
 			</div>
-			<div id="project-point-right">
-				<p> By using a real shoe in our final product, it gave us the rigidity and flexibility that could only be created with the materials used in shoe construction. We then applied a layer of customization to the shoe that created our final design. </p>
-				<img id="proj-img" src="assets/img/bibo_org.JPG" alt="moon mobile" height="300">
+
+			<div id="one-img">				
+				<img src="assets/img/cover.jpg" alt="derive-sketch">
 			</div>
-			<div id="project-point-right">
-				<p> I always think of this project as one of the stronger concepts I’ve worked on. I love the rainbow signals from the Neopixel strips and the opportunity to work with people that were so strong in app development, both front and back end. In the future, I would like to work on developing the actual navigating by integrating it with Google’s directions API.</p>
+
+			<div id="graph-text">
+				<div id="subhead"><b>Developing the Sole</b></div>
+				<div id="content">We first mapped out the electronics using a cardboard shoe-sole prototype and a breadboard. We then experimented a bit with 3D printing customizable, attachable soles before deciding to modify a pre-existing shoe to house our electronics. In our final product, I took out the insole of a leather Steve Madden shoe and cut out cavities to hold a microcontroller and a lithium battery. I also drilled a channel from the front of our shoe inwards to run our LED wires into our microcontroller.
+				</div>
 			</div>
-			<iframe width="800" height="500" src="https://www.youtube.com/embed/qtCINo82638" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		</div>
+
+			<div id="three-img">
+				<img src="assets/img/construct-one.JPG" alt="derive-sketch">
+				<img src="assets/img/construct-two.JPG" alt="derive-sketch">
+				<img src="assets/img/construct-three.JPG" alt="derive-sketch">
+			</div>
+
+			<div id="graph-text">
+				<div id="subhead"><b>Mobile Application</b></div>
+				<div id="content">My team developed an Android app that was able to establish a Bluetooth connection with the shoe. My main role in its development was conceptualizing the kind of experience it would imprint upon the user. I helped to refine how the app evoked the concept of a derive. </div>
+			</div>
+
+			<div id="one-img">
+				<img src="assets/img/app-two.JPG" alt="derive-sketch">	
+			</div>
+			<div id="one-img">
+				<img src="assets/img/app-one.JPG" alt="derive-sketch">	
+			</div>
+
+			
+			<div id="graph-text">
+				<div id="subhead"><b>Future Directions</b></div>
+				<div id="content">We'd like to make this project open-sourced in the future. The application is already available on Github and we envision having the fritzing diagrams and build instructions available on a DIY platform.</div>
+			</div>
+
+			<div id="one-img">
+				<img src="assets/img/derive-callout.JPG" alt="derive-sketch">				
+			</div>
+
+	</div>
+
+	<div id="bottom-mark"><b>Designed and Developed by</b> Annalise Kamegawa</div>
+
 	</div>
 </body>
 </html>
