@@ -578,7 +578,7 @@ body {
 /*different image sequences*/
 #one-img {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 
 }
 
