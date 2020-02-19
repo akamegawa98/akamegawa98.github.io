@@ -196,7 +196,7 @@ body {
 
 #small {
   font-size: 12px;
-  line-height: 9px;
+  line-height: 12px;
 }
 
 #prod-link:link{
@@ -334,7 +334,7 @@ body {
 
 /* HEY HEY HEY MOBILE DEV AHHHHHHHH */
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 600px) {
 
 #nav-bar {
   list-style-type: none;
@@ -413,7 +413,7 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 65vw;
+  width: 80vw;
   margin: auto;
 }
 
@@ -505,13 +505,17 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 24px;
   color: black;
   margin-bottom: 25px;
 }
 
 .caption p{
     margin-top: 2px;
+    line-height: 18px;
+}
+
+.caption#small {
+  line-height: 18px;
 }
 
 .caption p:hover {
