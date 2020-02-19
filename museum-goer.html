@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<head>
+	<title>Museum-Goer</title>
+		<link rel="icon" href="assets/img/tab-icon.png">
+		<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding|Poppins:400,700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="assets/css/template_style.css" />
+</head>
+<body>
+	<div id="nav-bar">
+			<div class="logo" >
+				<a href="index.html">
+					<img src="assets/img/logo.png" class="img-bottom" alt="Annalise">
+					<img src="assets/img/logo-one.png" class="img-top" alt="Annalise">
+				</a>
+			</div>
+			<li id="title_text"  id="nav_text" class="push"><a id="nav_text" href="index.html">PORTFOLIO</a></li>
+	  		<li id="title_text"  id="nav_text"><a id="nav_text" href="about.html">ABOUT</a></li>
+
+	  		<li id="title_text"  id="nav_text"><a id="nav_text" href="https://www.linkedin.com/in/annalise-kamegawa-937817137/">in</a></li>
+	  		<div class="insta"><a id="linked-in" href="https://www.instagram.com/annalisejune/">
+				<img src="assets/img/insta-one.png" class="img-bottom" alt="Card Back">
+        		<img src="assets/img/insta-two.png"  class="img-top" alt="Card Front">
+        		</a>
+	  		</div>
+	</div>
+	<div class="page-container">
+
+		<div class="header-container">
+			<img id="title-img" src="assets/img/gm-cover.png" alt="derive-sketch">
+			<div id="title_text" class="section-header">Museum-Goer</div>		
+		</div>
+
+	<div class="content-container">
+			<div id="graph-text">
+				<div id="subhead"><b>Introduction</b></div>
+				<div id="content">Paul Docherty’s piece, <a id="inside_link" href="http://pauldocherty.com/project/3d-modelling-bust-nefertiti/">“3D Modelling the Bust of Queen Nefertiti,”</a> explored creating 3D models with images found free online. After reading, I wondered how viable his methods were. In this project I utilized Agisoft Metashape to create 3D models of objects in the British Museum’s online SketchFab library using only images that I found online. I selected to use 3D scanned objects from the British Museums collections so I would have a control group to compare my objects to. I chose some of the most viewed objects in the British Museum’s online SketchFab collection - Hoa Hakananai’a, the Granite head of Amenemhat III, and the Jericho Skull. I made an assumption that objects getting a lot of online traffic would also receive a lot of visitor attention. By creating these photogrammetry models from open-sourced images taken by the museum goer, I created a compelling series of models that materialize what it is the we are really looking at when we go to museums
+				</div>
+			</div>
+
+			<div id="one-img">
+				<img src="assets/img/obj-select.PNG" alt="derive-sketch">	
+			</div>
+
+			<div id="graph-text">
+				<div id="subhead"><b>Object Selection Criteria</b></div>
+				<div id="content"> I selected to use 3D scanned objects from the British Museums collections so I would have a control group to compare my objects to. I chose some of the most viewed objects in the British Museum’s online SketchFab collection. I made an assumption that objects getting a lot of online traffic would also receive a lot of visitor attention. The top four most viewed objects in the collection were Hoa Hakananai'a, The Jericho Skull, the Rosetta Stone and the Granite head of Amenemhat III. I decided to not use the Rosetta Stone in my project because of the lack of distinct contours and features on the object.
+				</div>
+			</div>
+
+			<div id="one-img">
+				<img src="assets/img/timeline.PNG" alt="derive-sketch">	
+			</div>
+			<div class="caption" id="small"><i>A timeline of the display history of the 3 chosen objects.</i></div>
+
+			<div id="graph-text">
+				<div id="subhead"><b>Photo Selection Criteria</b></div>
+				<div id="content">To the best of my ability, I sought to follow Paul Docherty’s methodologies outlined in his article “3D Modelling the Bust of Queen Nefertiti.” This asks the creator to consider Image sharpness, Image resolution, Coverage, Lighting, Exif data present, Colour variation, Correct image orientation, and the question “Is it the right model?”</div>
+			</div>
+
+			<div id="three-img">
+				<img src="assets/img/js-edit.jpg" alt="derive-sketch">
+				<img src="assets/img/am-edit.jpg" alt="derive-sketch">
+				<img src="assets/img/hok-edit.jpg" alt="derive-sketch">
+			</div>
+
+			<div id="graph-text">
+				<div id="subhead"><b>Work Flow</b></div>
+				<div id="content">I began by collecting images that were available online. It wasn’t specified how Docherty got his images, but I used Google image search, Pinterest, Flickr, the object’s data base listing, and Google reverse image search. I checked for quality by looking at the size of image, blurriness, accuracy, focus, etc. and deleted images that don’t meet that criteria. I then put the images into Photoshop to mask and crop the images. I then exported the masked images as JPEGS. I then created a photogrammetry model in Agisoft Photoscan using all the masked photos. I closely followed directions provided by Kea Johnston, and instructor at UC Berkeley, along with some of the pointers that Docherty provided in his piece. I exported the models into .obj files and used Cloudcompare to visually compare my files to the British Museum Files. </div>
+			</div>
+
+			<div id="one-img">
+				<img src="assets/img/am-mask.PNG" alt="derive-sketch">
+			</div>
+			
+			<div id="graph-text">
+				<div id="subhead"><b>Different Methodologies</b></div>
+				<div id="content">“As accuracy was the driving force behind this project the photogrammetric phase was a great help and not only allowed for better accuracy than could have been gained by hand but also resulted in the construction time being kept to a minimum.” -P. Docherty. I chose not to focus too much on the scalar accuracies of the models I was producing. I wanted to to allow more time for producing a quantity of models so I could do more qualitative analysis across models. Therefore, there was a sacrifice made to dimensional and textural accuracy. I also chose to skip some post processing steps in Maya that Docherty did to fill in the missing gaps in his model. I wanted to be able to see clearly where the corpus of images I had access to focused on or ignored. 
+				</div>
+			</div>
+
+			<div id="one-img">
+				<img src="assets/img/hoa-comp.PNG" alt="derive-sketch">
+			</div>
+			<div class="caption" id="small"><i>A visual comparison of Hoa Hakananai'a.</i></div>
+
+			<div id="one-img">
+				<img src="assets/img/am-comp.PNG" alt="derive-sketch">
+			</div>
+			<div class="caption" id="small"><i>A visual comparison of the Granite head of Amenemhat III.</i></div> 
+			<div id="one-img">
+				<img src="assets/img/js-comp.PNG" alt="derive-sketch">
+			</div>
+		<div class="caption" id="small"><i>A visual comparison of the Jericho Skull.</i></div> 
+
+			<div id="graph-text">
+				<div id="subhead"><b>Conclusions</b></div>
+				<div id="content"> This project gives a very visual manifestation of what museum-goers find interesting when they view objects on display. The anthropomorphic nature of the objects chosen shows a definite fascination humans have in objects made in our their own image. There's a particular attention given to the forward facing features of an object - features that show the eyes, nose, and mouth of a statue. It's as though the viewer goes to museums to find themselves in the objects on display. </div>
+			</div>
+
+
+	</div>
+
+	<div id="bottom-mark"><b>Designed and Developed by</b> Annalise Kamegawa</div>
+
+	</div>
+</body>
+</html>
