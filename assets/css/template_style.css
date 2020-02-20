@@ -333,8 +333,8 @@ body {
 }
 
 /* HEY HEY HEY MOBILE DEV AHHHHHHHH */
-
-@media only screen and (orientation: portrait) {/* (max-width: 900px) { */
+ 
+@media (max-width: 900px), (pointer:none), (pointer:coarse) {
 
 #nav-bar {
   list-style-type: none;
