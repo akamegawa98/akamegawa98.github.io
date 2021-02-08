@@ -325,6 +325,7 @@ body {
 
 #inside_link:link {
   color: grey;
+  text-decoration: none;
 }
 
 #inside_link:visited {
