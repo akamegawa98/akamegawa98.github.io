@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<head>
+	<title>PHOTOGRAMMETRY SUITCASE</title>
+		<link rel="icon" href="assets/img/tab-icon.png">
+		<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding|Poppins:400,700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="assets/css/template_style.css" />
+</head>
+<body>
+	<div id="nav-bar">
+			<div class="logo" >
+				<a href="index.html">
+					<img src="assets/img/logo.png" class="img-bottom" alt="Annalise">
+					<img src="assets/img/logo-one.png" class="img-top" alt="Annalise">
+				</a>
+			</div>
+			<li id="title_text"  id="nav_text" class="push"><a id="nav_text" href="index.html">PORTFOLIO</a></li>
+	  		<li id="title_text"  id="nav_text"><a id="nav_text" href="about.html">ABOUT</a></li>
+
+	  		<li id="title_text"  id="nav_text"><a id="nav_text" href="https://www.linkedin.com/in/annalise-kamegawa-937817137/">in</a></li>
+	  		<div class="insta"><a id="linked-in" href="https://www.instagram.com/annalisejune/">
+				<img src="assets/img/insta-one.png" class="img-bottom" alt="Card Back">
+        		<img src="assets/img/insta-two.png"  class="img-top" alt="Card Front">
+        		</a>
+	  		</div>
+	</div>
+	<div class="page-container">
+
+		<div class="header-container">
+			<img id="title-img" src="assets/img/suitcase-title.jpg" alt="suitcase">
+			<div id="title_text" class="section-header">Photogrammetry</div>		
+		</div>
+
+	<div class="content-container">
+			<div id="graph-text">
+				<div id="subhead"><b>Introduction</b></div>
+				<div id="content">In the fall of 2020, using just my iPhone and the Agisoft Metashape software, I created a 3D model of a 47 x 31.2 x 75.6 cm suitcase. Through the production of this model, I got an in-depth understanding of the Agisoft Metashape and the greater photogrammetric pipeline. Although I’m used to creating models in CAD software, I have found that this technique has a lot of potential in the design space. </div>
+			</div>
+
+			<div id="one-img">
+				<iframe title="Suitcase" id ="suitcase" src="https://sketchfab.com/models/dea49b83b5514b9f8b943d68e78116b2/embed?autospin=0&autostart=1&preload=1">
+    			</iframe>
+			</div>
+			<div class="caption" id="small"><i>The low-resolution sketchfab model.</i></div>
+
+			<div id="graph-text">
+				<div id="subhead"><b>My Setup</b></div>
+				<div id="content">In my Milan dorm room, I set up 20 equidistant points on the floor with blue sticky notes, 35 cm away from the object. I then placed 4 sets of agisoft markers on the ground to help with scaling in the software. Using a weight tied to my phone case, I was able to achieve consistent vertical and horizontal distance with each set of shots. The suitcase  was also elevated on a plastic pot to allow for better shooting angles on the underside of the suitcase.
+				</div>
+			</div>
+
+			<div id="one-img">
+				<img src="assets/img/suitcase-setup.jpg" alt="suitcase-setup">
+			</div>
+
+			<div id="graph-text">
+				<div id="subhead"><b>Final Approach</b></div>
+				<div id="content">I attempted several approaches to capturing images of my object. The best approach I found was to take 3 sets of images at different orientations. In the software I created 3 ‘chunks’ corresponding to the three suitcase orientations. After marking corresponding points in each chunk, I aligned the pieces to make a complete model of my suitcase. I then cleaned my model in Meshmixer and MeshLab before uploading a low resolution version to SketchFab. </div>
+			</div>
+
+			<div id="one-img">
+				<img src="assets/img/suitcase-chunks.PNG" alt="suitcase-chunks">	
+			</div>
+
+			<div id="graph-text">
+				<div id="subhead"><b>Key Take-Aways</b></div>
+				<div id="content">I learned a lot about low-cost photogrammetry through this process. Not having access to high-end equipment or studios presented a definite challenge, but I ended up discovering how to optimize this technique for this use case. While using the software, I found that masking my images, paying particular attention to lighting in my environment, and referencing the Agisoft Metashape documentation helped me to get a high quality model with my available equipment. </div>
+			</div>
+
+			<div id="two-img">
+				<img src="assets/img/suitcase-mask.PNG" alt="derive-sketch">
+				<img src="assets/img/suitcase-properlight.PNG" alt="derive-sketch">	
+			</div>
+			<div class="caption" id="small"><i>(left) A set of the masks used to isolate the suitcase. (right) degredation of the model due to insufficient lighting. </i></div>
+
+			
+			<div id="graph-text">
+				<div id="subhead"><b>Applications</b></div>
+				<div id="content">I think this is a great technique for creating custom, wearable technology. Using photogrammetry, a designer could create a model of body parts with a fairly high degree of accuracy while also using cheap tools. It would be an especially good starting point for a-typical body types. Additionally, due to the low tooling costs, designers with a tight budget can utilize this tool to make high accuracy models. </div>
+			</div>
+
+			<div id="two-img">
+				<img src="assets/img/Rendering_one.jpg" alt="suitcase-render">
+				<img src="assets/img/Rendering_two.jpg" alt="suitcase-render">
+				
+			</div>
+
+			<div class="caption" id="small"><i>(left) LinkedIn of CITRIS and the Banatao Institute </i></div>
+
+
+	</div>
+
+	<div id="bottom-mark"><b>Designed and Developed by</b> Annalise Kamegawa</div>
+
+	</div>
+</body>
+</html>
